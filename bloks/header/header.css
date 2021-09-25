@@ -1,0 +1,23 @@
+.header{
+  max-width: 1280px;
+  display: flex;
+  align-items: flex-end;
+  align-self: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: white;
+  padding: 28px 48px 0 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 0 16px;
+    padding-top: 16px;
+  }
+}
