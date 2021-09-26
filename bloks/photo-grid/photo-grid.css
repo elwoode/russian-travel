@@ -8,8 +8,8 @@
   grid-template-rows: repeat(3, 1fr);
 }
 
-@media screen and (max-width: 720px) {
-  .photo-grid {
+@media screen and (max-width: 1000px){
+  .photo-grid{
     max-width: 720px;
     margin: 88px auto 0;
     display: grid;
@@ -20,8 +20,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .photo-grid {
+@media screen and (max-width: 760px){
+  .photo-grid{
     max-width: 288px;
     margin: 64px auto 0;
     display: grid;

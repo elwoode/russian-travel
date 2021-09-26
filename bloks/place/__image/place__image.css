@@ -7,14 +7,20 @@
 }
 
 
-@media screen and (max-width: 768px) {
-  .place__image {
-      max-width: 340px;
+@media screen and (max-width: 1250px){
+  .place__image{
+    max-width: 440px;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .place__image {
-      max-width: 320px;
+@media screen and (max-width: 1000px){
+  .place__image{
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 760px){
+  .place__image{
+    max-width: 320px;
   }
 }
