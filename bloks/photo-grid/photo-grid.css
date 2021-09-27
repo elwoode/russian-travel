@@ -5,28 +5,26 @@
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+
 }
 
 @media screen and (max-width: 1000px){
   .photo-grid{
     max-width: 720px;
     margin: 88px auto 0;
-    display: grid;
-    grid-gap: 16px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-
   }
 }
 
 @media screen and (max-width: 760px){
   .photo-grid{
-    max-width: 288px;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
     margin: 64px auto 0;
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(12, 1fr);
     grid-gap: 12px;
   }
 }
