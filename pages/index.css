@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 /*шапка*/
-@import url(../blocks/header/__link/__link-active/header__link-active.css);
+@import url(../blocks/header/__link/__link_active/header__link_active.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -14,7 +14,7 @@
 @import url(../blocks/lead/lead.css);
 
 /*intro*/
-@import url(../blocks/intro/__list-line/intro__list-line.css);
+@import url(../blocks/intro/__list-line/intro__list_line.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
