@@ -28,9 +28,7 @@
       display: grid;
       grid-template-columns: repeat(1, auto);
       grid-template-rows: repeat(4, auto);
-      grid-gap: 32px;
       justify-items: center;
       align-items: center;
-      margin-top: 48px;
   }
 }
