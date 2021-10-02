@@ -19,7 +19,7 @@
     max-width: 720px;
     margin-top: 88px;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 16px
+    grid-gap: 16px;
   }
 }
 
