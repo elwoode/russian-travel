@@ -1,7 +1,8 @@
 .place__website{
-  max-width: 456px;
-  margin: 0;
-  align-self: end;
+ justify-self: start;
+ align-self: end;
+ grid-row: 1/2;
+ grid-column: 2/3;
 }
 
 @media screen and (max-width: 720px) {

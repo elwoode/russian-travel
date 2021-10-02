@@ -1,20 +1,19 @@
-.cover__overlay{
-  background-image: url(../../../images/dobaikala.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  color: white;
-  max-width: 100%;
-  padding-bottom: 41.5%;
-  position: relative;
+.cover__overlay {
+  text-decoration: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  text-decoration: none;
-
-
-
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1184px;
+  height: 740px;
+  background-image: url(../../../images/dobaikala.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffff;
 }
+
 .cover__overlay:before {
   content: '';
   position: absolute;
@@ -25,33 +24,28 @@
   opacity: 0.3;
   transition: all 0.5s linear;
 }
+
 .cover__overlay:hover:before {
   background: #2A2C2F;
   opacity: 0.8;
 }
 
 
-
-@media screen and (max-width: 1280px) {
-  .cover__overlay {
-    max-width: 1184px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    max-width: 1024px;
+    min-height: 620px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
-    max-width: 768px;
+    min-height: 480px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .cover__overlay {
-    max-width: 320px;
+    min-height: 200px;
+
   }
 }

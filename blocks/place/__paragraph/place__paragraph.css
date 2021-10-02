@@ -3,7 +3,7 @@
   margin: 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: #FFFFFF;
@@ -14,7 +14,7 @@
   margin-top: 0px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
   .place__paragraph{
     font-size: 16px;
     line-height: 26px;

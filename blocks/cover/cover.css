@@ -1,18 +1,26 @@
 .cover {
-  max-width: 1184px;
-  margin: 92px auto;
-  margin-bottom: 0;
-
+    max-width: 1184px;
+    margin: 92px auto 0;
+    padding: 0 48px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1279px) {
   .cover {
-      margin: 88px auto 0;
+    max-width: 1024px;
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1023px) {
   .cover {
-      margin: 64px auto 0;
+    max-width: 768px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    max-width: 320px;
+    margin-top: 64px;
   }
 }
