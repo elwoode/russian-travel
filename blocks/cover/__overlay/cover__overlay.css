@@ -6,30 +6,13 @@
   align-items: center;
   margin: 0 auto;
   max-width: 1184px;
-  height: 740px;
-  background-image: url(../../../images/dobaikala.jpg);
+  min-height: 740px;
+  background-image: url(../../../images/cover-trains.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffff;
 }
-
-.cover__overlay:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.3;
-  transition: all 0.5s linear;
-}
-
-.cover__overlay:hover:before {
-  background: #2A2C2F;
-  opacity: 0.8;
-}
-
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
@@ -43,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 567px) {
   .cover__overlay {
     min-height: 200px;
 

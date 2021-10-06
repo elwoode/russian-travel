@@ -11,9 +11,12 @@
   text-decoration: none;
 }
 
+
+
+
 .header__link:hover{
   opacity: 0.8;
-  transition:0.4s linear;
+  transition: 0.4s linear;
 }
 
 @media screen and (max-width: 767px) {
