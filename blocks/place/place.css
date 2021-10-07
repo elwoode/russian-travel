@@ -16,26 +16,26 @@
 
 @media screen and (max-width: 1250px) {
   .place {
-      grid-gap: 48px 32px;
+    grid-gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .place {
-    grid-gap: 48px 28px;
-    margin-bottom: 73px;
-    grid-template-columns: repeat(auto-fit, minmax(340px 1fr));
+  grid-gap: 48px 28px;
+  margin-bottom: 73px;
+  grid-template-columns: repeat(auto-fit, minmax(340px 1fr));
   }
 }
 
 @media screen and (max-width: 720px) {
   .place {
-      display: grid;
-      grid-template-columns: repeat(1, auto);
-      grid-template-rows: repeat(4, auto);
-      grid-gap: 32px;
-      justify-items: center;
-      align-items: center;
-      margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(4, auto);
+     grid-gap: 32px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 48px;
   }
 }
