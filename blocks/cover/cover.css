@@ -3,7 +3,6 @@
     margin: 92px auto 0;
     padding: 0 48px;
     position: relative;
-    padding: 0;
 }
 .cover:before {
   content: '';
@@ -31,7 +30,7 @@
 @media screen and (max-width: 1023px) {
   .cover {
     max-width: 768px;
-    margin-top: 88px 0 auto;
+    margin: 88px 0 auto;
   }
 }
 

@@ -6,6 +6,8 @@
   justify-self: start;
 }
 
+/* Привет помоги плз в какую сторону двигаться совсем запутался */
+
 @media screen and (max-width: 720px){
   .place__paragraphs{
     max-width: 288px;
