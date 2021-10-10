@@ -22,6 +22,7 @@
 @media screen and (max-width: 760px){
   .place__image{
     max-width: 320px;
-
+    grid-column: 1/4;
+    grid-row: 3/4;
   }
 }
