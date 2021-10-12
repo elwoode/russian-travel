@@ -23,18 +23,18 @@
 @media screen and (max-width: 1000px) {
   .place {
   grid-gap: 48px 28px;
-  margin-bottom: 73px;
+  margin-top: 73px;
   grid-template-columns: repeat(auto-fit, minmax(340px 1fr));
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
   .place {
     display: grid;
     grid-template-columns: repeat(1, auto);
      grid-gap: 32px;
     justify-items: center;
     align-items: center;
-    margin: 48px 0 0;
+    margin: 50px 0 0;
   }
 }

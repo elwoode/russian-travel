@@ -9,8 +9,9 @@
   .place__website{
     display: grid;
     grid-row: 2;
-    grid-column: 1;
+    grid-column: 1/4;
     padding-left: 16px;
+    max-width: 288px;
 
   }
 }

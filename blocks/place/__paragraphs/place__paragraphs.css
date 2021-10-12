@@ -6,14 +6,19 @@
   justify-self: start;
 }
 
-/* Привет помоги плз в какую сторону двигаться совсем запутался */
+@media screen and (max-width: 1023px){
+  .place__paragraphs{
+    max-width: 352px;
+  }
+}
 
 @media screen and (max-width: 720px){
   .place__paragraphs{
     max-width: 288px;
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 4/5;
     align-self: center;
     justify-self: center;
+
   }
 }

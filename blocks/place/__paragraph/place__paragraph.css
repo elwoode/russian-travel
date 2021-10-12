@@ -5,9 +5,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29,34px;
+  line-height: 1.8337rem;
   color: #FFFFFF;
-  margin-top: 24px;
+  margin-top: 25px;
 }
 
 .place__paragraph:first-child {
@@ -16,9 +16,10 @@
 
 @media screen and (max-width: 1023px){
   .place__paragraph{
-    max-width: 288px;
+    max-width: 352px;
     font-size: 16px;
-    line-height: 26px;
-    padding: 0 16px;
+    line-height: 1.63rem;
+    padding: 0;
   }
 }
+
