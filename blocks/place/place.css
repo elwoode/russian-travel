@@ -14,13 +14,13 @@
 
 
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1250px){
   .place {
     grid-gap: 48px 32px;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 1023px){
   .place {
   grid-gap: 48px 28px;
   margin-top: 73px;
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 760px) {
+@media (max-width: 767px){
   .place {
     display: grid;
     grid-template-columns: repeat(1, auto);

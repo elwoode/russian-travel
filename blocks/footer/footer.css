@@ -10,13 +10,13 @@
 }
 
 
-@media screen and (max-width: 1023px) {
+@media (max-width: 1023px){
   .footer {
     margin: 88px 24px 0;
   }
 }
 
-@media screen and (max-width: 760px) {
+@media (max-width: 767px){
   .footer {
     margin: 64px auto 0 16px;
     flex-direction: column;

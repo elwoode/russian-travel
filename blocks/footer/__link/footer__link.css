@@ -15,7 +15,7 @@
   transition: 0.4s linear;
 }
 
-@media screen and (max-width: 760px)  {
+@media (max-width: 767px){
   .footer__link {
       font-size: 24px;
       line-height: 24px;

@@ -7,19 +7,19 @@
 }
 
 
-@media screen and (max-width: 1250px){
+@media (max-width: 1250px){
   .place__image{
     max-width: 440px;
   }
 }
 
-@media screen and (max-width: 1023px){
+@media (max-width: 1023px){
   .place__image{
     max-width: 340px;
   }
 }
 
-@media screen and (max-width: 760px){
+@media (max-width: 767px){
   .place__image{
     max-width: 320px;
     grid-column: 1/4;
