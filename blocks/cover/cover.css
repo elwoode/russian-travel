@@ -1,9 +1,7 @@
 .cover {
-  margin-top: 92px;
-  width: 90%;
+  margin: 92px auto 0;
+  width: 100%;
   max-width: 1184px;
-  margin-right: auto;
-  margin-left: auto;
   min-height: 740px;
   display: flex;
   flex-direction: column;
@@ -39,7 +37,6 @@
 @media (max-width: 1250px){
   .cover {
     min-height: 640px;
-    width: 100%;
   }
 }
 
