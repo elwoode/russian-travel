@@ -24,7 +24,10 @@
 @media (max-width: 1023px){
   .place {
   grid-gap: 48px 28px;
-  margin: 73px 24px 0;
+  margin-top: 73px;
+  align-items: center;
+  justify-content: center;
+
   grid-template-columns: repeat(auto-fit, minmax(340px 1fr));
   }
 }

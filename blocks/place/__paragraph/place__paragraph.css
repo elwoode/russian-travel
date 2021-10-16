@@ -24,8 +24,3 @@
   }
 }
 
-@media (max-width: 767px){
-  .place__paragraph{
-    white-space: pre-line;
-  }
-}
