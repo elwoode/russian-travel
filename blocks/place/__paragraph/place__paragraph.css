@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.8337rem;
+  line-height: 29.34px;
   color: #FFFFFF;
   margin-top: 25px;
 }
@@ -18,8 +18,14 @@
   .place__paragraph{
     max-width: 352px;
     font-size: 16px;
-    line-height: 1.63rem;
+    line-height: 26.08px;
     padding: 0;
+
   }
 }
 
+@media (max-width: 767px){
+  .place__paragraph{
+    white-space: pre-line;
+  }
+}

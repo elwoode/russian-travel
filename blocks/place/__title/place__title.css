@@ -12,6 +12,13 @@
   margin: 0;
 }
 
+@media (max-width: 1250px){
+  .place__title{
+    max-width: 440px;
+  }
+}
+
+
 @media (max-width: 1023px){
   .place__title{
     font-size: 42px;

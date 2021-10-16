@@ -17,13 +17,14 @@
 @media screen and (max-width: 1250px){
   .place {
     grid-gap: 48px 32px;
+
   }
 }
 
 @media (max-width: 1023px){
   .place {
   grid-gap: 48px 28px;
-  margin-top: 73px;
+  margin: 73px 24px 0;
   grid-template-columns: repeat(auto-fit, minmax(340px 1fr));
   }
 }
@@ -35,6 +36,6 @@
      grid-gap: 32px;
     justify-items: center;
     align-items: center;
-    margin: 50px 0 0;
+    margin: 50px auto 0;
   }
 }

@@ -33,7 +33,7 @@
 .cover:hover:after {
   opacity: 0.8;
 }
-
+/* высота нужна что бы картинка не расплывалась */
 @media (max-width: 1250px){
   .cover {
     min-height: 640px;

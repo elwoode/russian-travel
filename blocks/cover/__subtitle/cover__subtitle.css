@@ -11,10 +11,10 @@
 
 @media (max-width: 767px){
   .cover__subtitle {
-    min-width: 288px;
+    max-width: 288px;
     font-size: 14px;
     line-height: 16px;
     margin: 16px auto 0;
-
-    }
+    white-space: pre-line;
+  }
 }
